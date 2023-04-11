@@ -7,7 +7,7 @@ Author [HomePage](https://wlin-at.github.io/)
 
 ## Requirements
 * Our experiments run on Python 3.6, PyTorch 1.7, mmcv-full 1.3.12. Other versions should work but are not tested. 
-* Dependency of mmaction2 (for Video Swin Transformer):
+* Dependency of mmaction2 (for Video Swin Transformer):  
  `mmcv-full 1.3.12`
 * Other relevant dependencies are provided in `requirements.txt`
 
