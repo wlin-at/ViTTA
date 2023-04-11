@@ -15,15 +15,35 @@ Author [HomePage](https://wlin-at.github.io/)
 
 ---
 ## Data Preparation
-Download required data from [here](https://files.icg.tugraz.at/d/3551df694e3d4d6b89da/)  
-`list_video_perturbations_ucf`: list of files for corrupted videos of UCF101 validation set ((in 12 corruption types))  
+* Download
+Download required data for Experiments on UCF101 from [here](https://files.icg.tugraz.at/d/3551df694e3d4d6b89da/)  
+`list_video_perturbations_ucf`: list of files for corrupted videos of UCF101 validation set (in 12 corruption types)  
 `model_swin_ucf`: Video Swin Transformer trained on UCF101 training set  
 `model_tanet_ucf`: TANet trained on UCF101 training set  
 `model_tanet_ucf`: TANet trained on UCF101 training set  
 `source_statistics_tanet_ucf`: precomputed source (UCF101 training set) statistics on TANet  
 `source_statistics_swin_ucf`: precomputed source (UCF101 training set) statistics on Video Swin Transformer  
 `ucf_corrupted_videos.zip`: Corrupted videos of UCF validation set (in 12 corruption types)  
-
+* Data structure
+lines in file list are in format `video_path n_frames class_id`  
+video dataset structure
+    ```
+    level_5_ucf_val_split_1_/
+      gauss/
+        ApplyEyeMakeup/
+          v_ApplyEyeMakeup_g01_c01.mp4
+          v_ApplyEyeMakeup_g01_c02.mp4
+          ...
+        ApplyLipstick/
+        ...
+      contrast/
+        ApplyEyeMakeup/
+          v_ApplyEyeMakeup_g01_c01.mp4
+          v_ApplyEyeMakeup_g01_c02.mp4
+          ...
+        ApplyLipstick/
+      ...
+    ```
 ## Citation
 Thanks for citing our paper:
 ```bibtex
