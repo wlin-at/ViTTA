@@ -55,7 +55,7 @@ Specify the data paths in the scripts correspondingly (see comments in scripts)
 * Test-time adaptation
   $ `python tta_tanet_ucf101.py` test-time adaptation on TANet UCF101  
   $ `python tta_swin_ucf101.py` test-time adaptation on Video Swin Transformer UCF101  
-* Source-only evaluation on corrupted validation data
+* Source-only evaluation on corrupted validation data  
   $ `python tta_tanet_ucf101.py`  
   $ `python tta_swin_ucf101.py`  
 ---
