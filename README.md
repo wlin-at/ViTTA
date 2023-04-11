@@ -5,10 +5,9 @@
 Official implementation of ViTTA [[`arXiv`](https://arxiv.org/abs/2211.15393)]  
 Author [HomePage](https://wlin-at.github.io/)
 
-## Code
-
-We will release the code soon.
-
+## Requirements
+* Our experiments run on Python 3.6, PyTorch 1.7, mmcv-full 1.3.12. Other versions should work but are not tested. 
+* Relevant dependencies are provided in `requirements.txt`
 
 ## Citation
 Thanks for citing our paper:
