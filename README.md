@@ -51,9 +51,9 @@ video dataset structure
 Specify the data paths in the scripts correspondingly (see comments in scripts)
 * Precompute source statistics on training set  
   precompute source (UCF101 training set) statistics on TANet  
-  $ `python compute_stats/compute_spatiotemp_stats_clean_train_tanet.py` 
+  $ `python compute_stats/compute_spatiotemp_stats_clean_train_tanet.py`  
   precompute source (UCF101 training set) statistics on Video Swin Transformer  
-  $ `python compute_stats/compute_spatiotemp_stats_clean_train_swin.py` 
+  $ `python compute_stats/compute_spatiotemp_stats_clean_train_swin.py`  
 * Test-time adaptation
   $ `python tta_tanet_ucf101.py` test-time adaptation on TANet UCF101  
   $ `python tta_swin_ucf101.py` test-time adaptation on Video Swin Transformer UCF101  
