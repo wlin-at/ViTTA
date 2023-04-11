@@ -16,7 +16,7 @@ Author [HomePage](https://wlin-at.github.io/)
 
 ---
 ## Data Preparation
-* Download
+* Download  
 Download required data for Experiments on UCF101 from [here](https://files.icg.tugraz.at/d/3551df694e3d4d6b89da/)  
 `list_video_perturbations_ucf`: list of files for corrupted videos of UCF101 validation set (in 12 corruption types)  
 `model_swin_ucf`: Video Swin Transformer trained on UCF101 training set  
