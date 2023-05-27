@@ -24,7 +24,7 @@ Download required data for Experiments on UCF101 from [here](https://files.icg.t
 `model_tanet_ucf`: TANet trained on UCF101 training set  
 `source_statistics_tanet_ucf`: precomputed source (UCF101 training set) statistics on TANet  
 `source_statistics_swin_ucf`: precomputed source (UCF101 training set) statistics on Video Swin Transformer  
-`source_statistics_swin_ucf`: a folder of 12 compressed files containing videos of UCF validation set (in 12 corruption types)  
+`ucf_corrupted_videos`: a folder of 12 compressed files containing videos of UCF validation set (in 12 corruption types)  
 `ucf_corrupted_videos.zip`: a single compressed file (83.8GB) containing videos of UCF validation set (in 12 corruption types)  
 * Data structure  
 lines in file list are in format 
