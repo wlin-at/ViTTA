@@ -4,7 +4,8 @@
 **ViTTA** is the first approach of test-time adaptation of video action recognition models against common distribution shifts. ViTTA is tailored to saptio-temporal models and capable of adaptation on a single video sample at a step. It consists in a feature distribution alignment technique that aligns online estimates of test set statistics towards the training statistics. It further enforces prediction consistency over temporally augmented views of the same test video sample. 
 
 Official implementation of ViTTA [[`arXiv`](https://arxiv.org/abs/2211.15393)]  
-Author [HomePage](https://wlin-at.github.io/)
+Author [HomePage](https://wlin-at.github.io/)  
+[🤗 Dataset](https://huggingface.co/datasets/wlin21at/ViTTA)  
 
 ## Requirements
 * Our experiments run on Python 3.6, PyTorch 1.7, mmcv-full 1.3.12. Other versions should work but are not tested. 
