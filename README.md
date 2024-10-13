@@ -5,7 +5,7 @@
 
 Official implementation of ViTTA [[`arXiv`](https://arxiv.org/abs/2211.15393)]  
 Author [HomePage](https://wlin-at.github.io/)  
-[🤗 Dataset](https://huggingface.co/datasets/wlin21at/ViTTA) (12 corruption types of Kinetics 400 and Something-Something v2)    
+[🤗 Dataset](https://huggingface.co/datasets/wlin21at/ViTTA) (12 corruption types of Kinetics 400 and Something-Something v2, and UCF101 data)    
 
 ## Requirements
 * Our experiments run on Python 3.6, PyTorch 1.7, mmcv-full 1.3.12. Other versions should work but are not tested. 
